@@ -1,1 +1,116 @@
 /* CSS for your imitation here */
+
+.dm-sans-puffs {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.real {
+  color:#f2e817;
+}
+.mills {
+color:#004399;  
+margin-left:100px;
+  z-index:2;
+}
+
+.lunch {
+  border: 20px skyblue;
+  background-color:skyblue;
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  gap: 210px;
+  width:750px;
+  font-family: "DM Sans";
+}
+
+.title {
+  color:#f6e907;
+  text-align:center;
+  border: 1px solid orange;
+  background-color:#f64700;
+  font-size:130px;
+  text-shadow: 
+    -4px -4px 0 black,
+    4px -4px 0 black,
+    8px 8px 0 black,
+    8px 8px 0 black;
+  display:inline-block;
+  line-height:0.7;
+  font-family: "DM Sans";
+}
+.family {
+  color:#f2e817;  
+  font-size:60px;
+}
+
+.gaka {
+  top:-100px;
+  
+}
+.box {
+  width: 750px;
+  height: 750px;
+  text-align: center;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.bottom {
+  display: flex;
+    justify-content: space-evenly;
+    bottom: 0;
+    width: 50%;
+    background-color: #333;
+    color: #fff;
+    padding:10px;
+}
+.random {
+  color: white;
+  font-size:25px;
+}
+.nutrition {
+  color:white;
+  font: size 25px;;
+}
+
+.triangle-container {
+  position: relative;
+  display: inline-block;
+}
+.triangle-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-top: 100px solid transparent;
+  border-left: 250px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 100px solid white;
+  z-index: 1;
+  transform: rotate(180deg); 
+  transform-origin: center; 
+}
+.general {
+  width: 160px;
+  height:66px;
+  margin-left:-12px;
+  margin-top:10px;
+  z-index:1;
+}
+.pb {
+margin-left:110px;
+  text-indent:60px;
+  font-family: "DM Sans";
+}
+
+/*@media screen and (max-width:800px) {
+  .random {
+    color:blue
+  }
+}
+*/
