@@ -59,13 +59,7 @@ margin-left:100px;
 }
 
 .bottom {
-  display: flex;
-    justify-content: space-evenly;
-    bottom: 0;
-    width: 50%;
-    background-color: #333;
-    color: #fff;
-    padding:10px;
+
 }
 .random {
   color: white;
@@ -96,9 +90,9 @@ margin-left:100px;
   transform-origin: center; 
 }
 .general {
-  width: 160px;
+  width: 60px;
   height:66px;
-  margin-left:-12px;
+  margin-left:40px;
   margin-top:10px;
   z-index:1;
 }
