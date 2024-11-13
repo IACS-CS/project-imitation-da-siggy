@@ -1,11 +1,19 @@
 /* CSS for your imitation here */
 
-.dm-sans-puffs {
-  font-family: "DM Sans", sans-serif;
+
+.baloo-2-puffs {
+  font-family: "Baloo 2", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
-  font-style: normal;
+  font-style: normal; }
+
+.cereal-carton {
+  width:750px;
+  height: 750px;
+  position:relative;
 }
+
+
 .real {
   color:#f2e817;
 }
@@ -22,13 +30,13 @@ margin-left:100px;
   align-items:center;
   gap: 250px;
   width: 750px;
-  font-family: "DM Sans";
+  font-family: "Baloo 2";
 }
 
 .puffer {
   background-color:none;
   width: 159px;
-  font-family: "DM Sans";
+  font-family: "Baloo 2";
 }
 img.puffer {
   height:275px;
@@ -43,8 +51,8 @@ img.puffer {
 }
 
 img.ryan {
-  width:675px;
-  height:369px;
+  height:300px;
+  width:505px;
   z-index:3;
   background:transparent;
 }
@@ -57,17 +65,20 @@ img.ryan {
   background: #f64700;
 }
 .ryan {
-  bottom:-150px;
-  margin-left:50px;
+  bottom:50px;
+  margin-left:100px;
 }
 
-.bottom {
 
-}
 .random {
   color: white;
   font-size:25px;
+  top:845px;
+  right:160px;
+  background:transparent;
+  z-index:4;
 }
+
 .nutrition {
   color:white;
   font: size 25px;;
@@ -103,19 +114,26 @@ img.ryan {
 .pb {
 margin-left:110px;
   text-indent:60px;
-  font-family: "DM Sans";
+  font-family: "Baloo 2";
   z-index:4;
   background: transparent;
+  line-height: 0.8;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:500px) {
 
-    .dm-sans-puffs {
-  font-family: "DM Sans", sans-serif;
+    .baloo-2-puffs {
+  font-family: "Baloo 2", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 250;
-  font-style: normal;
+  font-weight: 500;
+  font-style: normal; }
+
+.cereal-carton {
+  width:375px;
+  height: 375px;
+  position:relative;
 }
+
 .real {
   color:#f2e817;
 }
@@ -133,13 +151,13 @@ margin-left:50px;
   align-items:center;
   gap: 100px;
   width: 375px;
-  font-family: "DM Sans";
+  font-family: "Baloo 2";
 }
 
 .puffer {
   background-color:none;
   width: 80px;
-  font-family: "DM Sans";
+  font-family: "Baloo 2";
 }
 img.puffer {
   height:137px;
@@ -151,7 +169,7 @@ img.puffer {
 }
 .family {
   color:#f2e817;  
-  font-size:30px;
+  font-size:25px;
 }
 
 img.ryan {
@@ -169,19 +187,21 @@ img.ryan {
   background: #f64700;
 }
 .ryan {
-  bottom:150px;
+  bottom:-25px;
   margin-left:25px;
 }
 
-.bottom {
-
-}
 .random {
+  font-size:12px;
+  top:420px;
+  left:-88px;
+  background:transparent;
+  z-index:4;
   color: white;
-  font-size:13px;
 }
+
 .nutrition {
-  color:white;
+  color:black;
   font: size 13px;;
 }
 
@@ -215,9 +235,13 @@ img.ryan {
 .pb {
 margin-left:55px;
   text-indent:30px;
-  font-family: "DM Sans";
+  font-family: "Baloo 2";
   z-index:4;
   background: transparent;
+  line-height: 0.8;
 }
   }
+
+.peanut-reese {
+  color:orange;
 }
