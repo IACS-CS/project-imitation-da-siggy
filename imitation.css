@@ -16,13 +16,12 @@ margin-left:100px;
 }
 
 .lunch {
-  border: 20px skyblue;
   background-color:skyblue;
   display:flex;
   flex-direction: row;
   align-items:center;
-  gap: 210px;
-  width: 750px;;
+  gap: 250px;
+  width: 750px;
   font-family: "DM Sans";
 }
 
@@ -32,7 +31,7 @@ margin-left:100px;
   font-family: "DM Sans";
 }
 img.puffer {
-  height:274px;
+  height:275px;
   width:438px;
   z-index:2;
   align-items:center;
@@ -50,7 +49,7 @@ img.ryan {
   background:transparent;
 }
 .box {
-  width: 75%;
+  width: 750px;
   height: 750px;
   text-align: center;
   box-sizing: border-box;
@@ -105,11 +104,120 @@ img.ryan {
 margin-left:110px;
   text-indent:60px;
   font-family: "DM Sans";
+  z-index:4;
+  background: transparent;
 }
 
-/*@media screen and (max-width:800px) {
-  .family {
-    width:12%;
+@media screen and (max-width:700px) {
+
+    .dm-sans-puffs {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 250;
+  font-style: normal;
+}
+.real {
+  color:#f2e817;
+}
+.mills {
+color:#004399;  
+margin-left:50px;
+  z-index:4;
+  font-size:10px;
+}
+
+.lunch {
+  background-color:skyblue;
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  gap: 100px;
+  width: 375px;
+  font-family: "DM Sans";
+}
+
+.puffer {
+  background-color:none;
+  width: 80px;
+  font-family: "DM Sans";
+}
+img.puffer {
+  height:137px;
+  width:219px;
+  z-index:2;
+  align-items:center;
+  margin-left:-35%;
+  margin-top:30px;
+}
+.family {
+  color:#f2e817;  
+  font-size:30px;
+}
+
+img.ryan {
+  width:327px;
+  height:184px;
+  z-index:3;
+  background:transparent;
+}
+.box {
+  width: 375px;
+  height: 375px;
+  text-align: center;
+  box-sizing: border-box;
+  position: absolute;
+  background: #f64700;
+}
+.ryan {
+  bottom:150px;
+  margin-left:25px;
+}
+
+.bottom {
+
+}
+.random {
+  color: white;
+  font-size:13px;
+}
+.nutrition {
+  color:white;
+  font: size 13px;;
+}
+
+.triangle-container {
+  position: relative;
+  display: inline-block;
+}
+.triangle-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-top: 50px solid transparent;
+  border-left: 125px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 50px solid white;
+  z-index: 4;
+  transform: rotate(180deg); 
+  transform-origin: center; 
+}
+.general {
+  width: 30px;
+  height:33px;
+  margin-left:20px;
+  margin-top:5px;
+  z-index: 4;
+  background:none;
+}
+.pb {
+margin-left:55px;
+  text-indent:30px;
+  font-family: "DM Sans";
+  z-index:4;
+  background: transparent;
+}
   }
 }
-*/
