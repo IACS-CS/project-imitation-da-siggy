@@ -50,6 +50,7 @@ img.puffer {
   width:438px;
   z-index:2;
   align-items:center;
+  margin-left:-36%;
   top:130px;
 }
 img.family {
@@ -406,7 +407,7 @@ img.puffer {
   width: 657px;
   z-index: 2;
   align-items: center;
-  margin-left: -52.5%;
+  margin-left: -37%;
   top: 195px;
 }
 
