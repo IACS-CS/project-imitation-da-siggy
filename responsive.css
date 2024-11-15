@@ -18,7 +18,7 @@
 color:#004399;  
 margin-left:100px;
   z-index:4;
-  line-height: 0.8;
+  line-height: 0.7;
 }
 
 .lunch {
@@ -180,6 +180,7 @@ img.calories {
   width:375px;
   height:500px;
   position:relative;
+  margin:auto;
 }
 
 .real {
@@ -337,14 +338,183 @@ img.calories {
   z-index:6;
 }
 
-.enlarged{
+.enlarged {
   background:transparent;
 }
-
+}
 /* BEGIN MEDIUM WIDTH RULES */
 @media only screen and (min-width: 768px) and (max-width: 1399px) {
   /* Code for medium width and bigger : */
+.baloo-2-puffs {
+  font-family: "Baloo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal; }
 
+.cereal-carton {
+  width:750px;
+  height: 850px;
+  position:relative;
+  margin:auto;
+}
+
+.real {
+  color:#f2e817;
+}
+.mills {
+color:#004399;  
+margin-left:100px;
+  z-index:4;
+  line-height: 0.7;
+}
+
+.lunch {
+  background-color:#13a8ea;
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  gap: 250px;
+  width: 750px;
+  font-family: "Baloo 2";
+}
+
+.cup {
+ right:0px;
+}
+img.cup {
+width:156px;
+height:156px;
+z-index:4;
+}
+
+.puffer {
+  background-color:none;
+  width: 159px;
+  font-family: "Baloo 2";
+}
+img.puffer {
+  height:275px;
+  width:438px;
+  z-index:2;
+  align-items:center;
+  margin-left:-35%;
+  top:130px;
+}
+img.family {
+width:600px;
+height:60px;
+padding:15px;
+}
+
+img.ryan {
+  height:300px;
+  width:505px;
+  z-index:3;
+  background:transparent;
+}
+.box {
+  width: 750px;
+  height: 850px;
+  text-align: center;
+  box-sizing: border-box;
+  position: absolute;
+  background: #f64700;
+}
+.ryan {
+  bottom:25px;
+  margin-left:100px;
+}
+
+.sweet {
+  z-index:4;
+  background:transparent;
+  font-family: "Baloo 2";
+  line-height: 0.8;
+  top:460px;
+  left:270px;
+  font-size:24px;
+  color:black;
+}
+
+.random {
+  color: white;
+  font-size:20px;
+  top:930px;
+  right:215px;
+  background:transparent;
+  z-index:4;
+}
+
+.nutrition {
+  color:white;
+  font: size 25px;
+  z-index:4;
+  background:none;
+  position: absolute;
+  top:890px;
+  left:280px;
+}
+
+.triangle-container {
+  position: relative;
+  display: inline-block;
+}
+.triangle-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-top: 100px solid transparent;
+  border-left: 250px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 100px solid white;
+  z-index: 4;
+  transform: rotate(180deg); 
+  transform-origin: center; 
+}
+.general {
+  width: 60px;
+  height:66px;
+  margin-left:40px;
+  margin-top:10px;
+  z-index: 4;
+  background:none;
+}
+.pb {
+margin-left:110px;
+  text-indent:60px;
+  font-family: "Baloo 2";
+  z-index:4;
+  background: transparent;
+  line-height: 0.8;
+  position:absolute;
+  top:220px;
+  left:-70px;
+  font-size:24px;
+}
+
+.calories {
+  top:910px;
+  right:20px;
+  background:none;
+}
+
+img.calories {
+  width:150px;
+  height:50px;
+  z-index:6;
+}
+.enlarged {
+  font-family: "Baloo 2";
+  font-size: 14px;
+  top:750px;
+  z-index:6;
+  background:transparent;
+  left:-300px;
+  line-height: 0.8;
+}
   /* Laptop label */
   main::before {
     content: "Laptop";
@@ -353,10 +523,8 @@ img.calories {
   /* End laptop label */
 }
 
-/* BEGIN WIDE SCREEN RULES */
-@media only screen and (min-width: 1000px) {
-  /* Code for wide screen only */
-.baloo-2-puffs {
+@media only screen and (min-width: 1400px) {
+  .baloo-2-puffs {
   font-family: "Baloo 2", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -367,6 +535,7 @@ img.calories {
   width: 1125px;
   height: 1275px;
   position: relative;
+  margin:auto;
 }
 
 .real {
@@ -406,12 +575,12 @@ img.cup {
 }
 
 img.puffer {
-  height: 412.5px;
+  height: 450px;
   width: 657px;
   z-index: 2;
   align-items: center;
   margin-left: -37%;
-  top: 195px;
+  top: 200px;
 }
 
 img.family {
@@ -542,3 +711,17 @@ img.calories {
 /* BACK TO CODE FOR ALL SIZES */
 
 /* Code to insert circular label label to show how responsive code is working on lower right */
+main::before {
+  position: fixed;
+  bottom: 2px;
+  right: 2px;
+  color: #efefef;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-family: Helvetica, sans-serif;
+  font-size: 8pt;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
