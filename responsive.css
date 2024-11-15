@@ -1,16 +1,341 @@
 /* Code for all screen sizes */
+.baloo-2-puffs {
+  font-family: "Baloo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal; }
 
-/* BEGIN MOBILE RULES */
-@media only screen and (max-width: 768px) {
-  /* Code for mobile phones only: */
-
-  /* Mobile label */
-  main::before {
-    content: "Mobile";
-    background-color: #c8787888;
-  }
-  /* End mobile label */
+.cereal-carton {
+  width:750px;
+  height: 850px;
+  position:relative;
 }
+
+.real {
+  color:#f2e817;
+}
+.mills {
+color:#004399;  
+margin-left:100px;
+  z-index:4;
+  line-height: 0.8;
+}
+
+.lunch {
+  background-color:#13a8ea;
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  gap: 250px;
+  width: 750px;
+  font-family: "Baloo 2";
+}
+
+.cup {
+ right:0px;
+}
+img.cup {
+width:156px;
+height:156px;
+z-index:4;
+}
+
+.puffer {
+  background-color:none;
+  width: 159px;
+  font-family: "Baloo 2";
+}
+img.puffer {
+  height:275px;
+  width:438px;
+  z-index:2;
+  align-items:center;
+  top:130px;
+}
+img.family {
+width:600px;
+height:60px;
+padding:15px;
+}
+
+img.ryan {
+  height:300px;
+  width:505px;
+  z-index:3;
+  background:transparent;
+}
+.box {
+  width: 750px;
+  height: 850px;
+  text-align: center;
+  box-sizing: border-box;
+  position: absolute;
+  background: #f64700;
+}
+.ryan {
+  bottom:25px;
+  margin-left:100px;
+}
+
+.sweet {
+  z-index:4;
+  background:transparent;
+  font-family: "Baloo 2";
+  line-height: 0.8;
+  top:460px;
+  left:270px;
+  font-size:24px;
+  color:black;
+}
+
+.random {
+  color: white;
+  font-size:20px;
+  top:930px;
+  right:215px;
+  background:transparent;
+  z-index:4;
+}
+
+.nutrition {
+  color:white;
+  font: size 25px;
+  z-index:4;
+  background:none;
+  position: absolute;
+  top:850px;
+  left:280px;
+}
+
+.triangle-container {
+  position: relative;
+  display: inline-block;
+}
+.triangle-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-top: 100px solid transparent;
+  border-left: 250px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 100px solid white;
+  z-index: 4;
+  transform: rotate(180deg); 
+  transform-origin: center; 
+}
+.general {
+  width: 60px;
+  height:66px;
+  margin-left:40px;
+  margin-top:10px;
+  z-index: 4;
+  background:none;
+}
+.pb {
+margin-left:110px;
+  text-indent:60px;
+  font-family: "Baloo 2";
+  z-index:4;
+  background: transparent;
+  line-height: 0.8;
+  position:absolute;
+  top:220px;
+  left:-70px;
+  font-size:24px;
+}
+
+.calories {
+  top:910px;
+  right:20px;
+  background:none;
+}
+
+img.calories {
+  width:150px;
+  height:50px;
+  z-index:6;
+}
+.enlarged {
+  font-family: "Baloo 2";
+  font-size: 14px;
+  top:750px;
+  z-index:6;
+  background:transparent;
+  left:-300px;
+  line-height: 0.8;
+}
+/* BEGIN MOBILE RULES */
+@media screen and (max-width:768px) {
+    .baloo-2-puffs {
+  font-family: "Baloo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal; }
+
+.cereal-carton {
+  width:375px;
+  height:500px;
+  position:relative;
+}
+
+.real {
+  color:#f2e817;
+}
+.mills {
+color:#004399;  
+margin-left:50px;
+  z-index:4;
+  font-size:10px;
+  line-height: 0.7;
+}
+
+img.family {
+width:300px;
+height:30px;
+padding:5px;
+}
+
+.cup {
+  top:30px;
+ right:0px;
+}
+img.cup {
+width:78px;
+height:78px;
+z-index:4;
+}
+
+.lunch {
+  background-color:#13a8ea;
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  gap: 100px;
+  width: 375px;
+  font-family: "Baloo 2";
+}
+
+.puffer {
+  background-color:none;
+  width: 80px;
+  font-family: "Baloo 2";
+  position: absolute;
+  bottom: 270px;
+  align-items: center;
+  right:90px;
+}
+img.puffer {
+  height:137px;
+  width:219px;
+  z-index:2;
+}
+.family {
+  color:#f2e817;  
+  font-size:25px;
+}
+
+img.ryan {
+  width:327px;
+  height:184px;
+  z-index:3;
+  background:transparent;
+}
+.box {
+  width: 375px;
+  height: 500px;
+  text-align: center;
+  box-sizing: border-box;
+  position: absolute;
+  background: #f64700;
+}
+
+.sweet {
+  z-index:4;
+  background:transparent;
+  font-family: "Baloo 2";
+  line-height: 0.8;
+  top:300px;
+  left:150px;
+  font-size:12px;
+  color:black;
+}
+.ryan {
+  bottom:-15px;
+  margin-left:25px;
+}
+
+.random {
+  font-size:12px;
+  top:545px;
+  left:-88px;
+  background:transparent;
+  z-index:4;
+  color: white;
+}
+
+.nutrition {
+  color:white;
+  font: size 11px;
+  z-index:4;
+  background:none;
+  position: absolute;
+  top:510px;
+  left:125px;
+}
+
+.triangle-container {
+  position: relative;
+  display: inline-block;
+}
+.triangle-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-top: 50px solid transparent;
+  border-left: 125px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 50px solid white;
+  z-index: 4;
+  transform: rotate(180deg); 
+  transform-origin: center; 
+}
+.general {
+  width: 30px;
+  height:33px;
+  margin-left:20px;
+  margin-top:5px;
+  z-index: 4;
+  background:none;
+}
+.pb {
+margin-left:55px;
+  text-indent:30px;
+  font-family: "Baloo 2";
+  z-index:4;
+  background: transparent;
+  line-height: 0.8;
+  top:180px;
+  left:-30px;
+  font-size:12px;
+}
+.calories {
+  top:530px;
+  right:10px;
+  background:none;
+}
+
+img.calories {
+  width:105px;
+  height:30px;
+  z-index:6;
+}
+  }
 
 /* BEGIN MEDIUM WIDTH RULES */
 @media only screen and (min-width: 768px) and (max-width: 1399px) {
@@ -25,31 +350,191 @@
 }
 
 /* BEGIN WIDE SCREEN RULES */
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1000px) {
   /* Code for wide screen only */
+.baloo-2-puffs {
+  font-family: "Baloo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
 
-  /* Widescreen label */
-  main::before {
-    content: "Wide";
-    background-color: #00438888;
-  }
+.cereal-carton {
+  width: 1125px;
+  height: 1275px;
+  position: relative;
+}
+
+.real {
+  color: #f2e817;
+}
+
+.mills {
+  color: #004399;
+  margin-left: 150px;
+  z-index: 4;
+}
+
+.lunch {
+  background-color: #13a8ea;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 375px;
+  width: 1125px;
+  font-family: "Baloo 2";
+}
+
+.cup {
+  right: 0px;
+}
+
+img.cup {
+  width: 234px;
+  height: 234px;
+  z-index: 4;
+}
+
+.puffer {
+  background-color: none;
+  width: 238.5px;
+  font-family: "Baloo 2";
+}
+
+img.puffer {
+  height: 412.5px;
+  width: 657px;
+  z-index: 2;
+  align-items: center;
+  margin-left: -52.5%;
+  top: 195px;
+}
+
+img.family {
+  width: 900px;
+  height: 90px;
+  padding: 22.5px;
+}
+
+img.ryan {
+  height: 450px;
+  width: 757.5px;
+  z-index: 3;
+  background: transparent;
+}
+
+.box {
+  width: 1125px;
+  height: 1275px;
+  text-align: center;
+  box-sizing: border-box;
+  position: absolute;
+  background: #f64700;
+}
+
+.ryan {
+  bottom: 37.5px;
+  margin-left: 150px;
+}
+
+.sweet {
+  z-index: 4;
+  background: transparent;
+  font-family: "Baloo 2";
+  line-height: 0.8;
+  top: 690px;
+  left: 405px;
+  font-size: 36px;
+  color: black;
+}
+
+.random {
+  color: white;
+  font-size: 30px;
+  top: 1390px;
+  right: 322px;
+  background: transparent;
+  z-index: 4;
+}
+
+.nutrition {
+  color: white;
+  font-size: 37.5px;
+  z-index: 4;
+  background: none;
+  position: absolute;
+  top: 1335px;
+  left: 420px;
+}
+
+.triangle-container {
+  position: relative;
+  display: inline-block;
+}
+
+.triangle-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-top: 150px solid transparent;
+  border-left: 375px solid transparent;
+  border-right: 90px solid transparent;
+  border-bottom: 150px solid white;
+  z-index: 4;
+  transform: rotate(180deg);
+  transform-origin: center;
+}
+
+.general {
+  width: 90px;
+  height: 99px;
+  margin-left: 60px;
+  margin-top: 15px;
+  z-index: 4;
+  background: none;
+}
+
+.pb {
+  margin-left: 165px;
+  text-indent: 90px;
+  font-family: "Baloo 2";
+  z-index: 4;
+  background: transparent;
+  line-height: 0.8;
+  position: absolute;
+  top: 330px;
+  left: -105px;
+  font-size: 36px;
+}
+
+.calories {
+  top: 1365px;
+  right: 30px;
+  background: none;
+}
+
+img.calories {
+  width: 225px;
+  height: 75px;
+  z-index: 6;
+}
+
+.enlarged {
+  font-family: "Baloo 2";
+  font-size: 21px;
+  top: 1125px;
+  z-index: 6;
+  background: transparent;
+  left: -450px;
+  line-height: 0.8;
+}
+
   /* End widescreen label */
 }
 
 /* BACK TO CODE FOR ALL SIZES */
 
 /* Code to insert circular label label to show how responsive code is working on lower right */
-main::before {
-  position: fixed;
-  bottom: 2px;
-  right: 2px;
-  color: #efefef;
-  border-radius: 50%;
-  width: 45px;
-  height: 45px;
-  font-family: Helvetica, sans-serif;
-  font-size: 8pt;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
