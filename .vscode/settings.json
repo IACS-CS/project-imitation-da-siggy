@@ -26,5 +26,8 @@
     ".vscode" : true,
     ".github" : true,
     "screenshots" : true,
-  }
+  },
+  "githubPullRequests.ignoredPullRequestBranches": [
+    "main"
+  ]
 }

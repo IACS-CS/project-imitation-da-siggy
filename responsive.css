@@ -340,6 +340,7 @@ img.calories {
 
 .enlarged {
   background:transparent;
+  font-size:0px;
 }
 }
 /* BEGIN MEDIUM WIDTH RULES */
