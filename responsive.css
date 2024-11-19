@@ -170,6 +170,9 @@ img.calories {
 }
 /* BEGIN MOBILE RULES */
 @media screen and (max-width:768px) {
+  html {
+background-color: brown;
+}
     .baloo-2-puffs {
   font-family: "Baloo 2", sans-serif;
   font-optical-sizing: auto;
@@ -306,6 +309,7 @@ img.ryan {
   z-index: 4;
   transform: rotate(180deg); 
   transform-origin: center; 
+  margin-top:3px;
 }
 .general {
   width: 30px;
@@ -346,6 +350,9 @@ img.calories {
 /* BEGIN MEDIUM WIDTH RULES */
 @media only screen and (min-width: 768px) and (max-width: 1399px) {
   /* Code for medium width and bigger : */
+  html {
+background-color: brown;
+}
 .baloo-2-puffs {
   font-family: "Baloo 2", sans-serif;
   font-optical-sizing: auto;
@@ -474,6 +481,7 @@ img.ryan {
   z-index: 4;
   transform: rotate(180deg); 
   transform-origin: center; 
+  margin-top: 4.25px; 
 }
 .general {
   width: 60px;
@@ -525,6 +533,10 @@ img.calories {
 }
 
 @media only screen and (min-width: 1400px) {
+ 
+  html {
+background-color: brown;
+}
   .baloo-2-puffs {
   font-family: "Baloo 2", sans-serif;
   font-optical-sizing: auto;
@@ -660,6 +672,7 @@ img.ryan {
   z-index: 4;
   transform: rotate(180deg);
   transform-origin: center;
+  margin-top:4.6px;
 }
 
 .general {
