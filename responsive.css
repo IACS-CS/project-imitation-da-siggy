@@ -171,7 +171,7 @@ img.calories {
 /* BEGIN MOBILE RULES */
 @media screen and (max-width:768px) {
   html {
-background-color: brown;
+background-color: #783615;
 }
     .baloo-2-puffs {
   font-family: "Baloo 2", sans-serif;
@@ -351,7 +351,7 @@ img.calories {
 @media only screen and (min-width: 768px) and (max-width: 1399px) {
   /* Code for medium width and bigger : */
   html {
-background-color: brown;
+background-color: #783615;;
 }
 .baloo-2-puffs {
   font-family: "Baloo 2", sans-serif;
@@ -535,7 +535,7 @@ img.calories {
 @media only screen and (min-width: 1400px) {
  
   html {
-background-color: brown;
+background-color: #783615;;
 }
   .baloo-2-puffs {
   font-family: "Baloo 2", sans-serif;

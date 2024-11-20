@@ -79,6 +79,7 @@ nav a.active {
   opacity: 1;
   pointer-events: all;
   transition: opacity 500ms;
+  z-index: 2;
 }
 main {
   position: relative;

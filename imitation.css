@@ -1,6 +1,8 @@
 /* CSS for your imitation here */
 
-
+html {
+  background-color:#783615;
+}
 .baloo-2-puffs {
   font-family: "Baloo 2", sans-serif;
   font-optical-sizing: auto;
