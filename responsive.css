@@ -9,6 +9,7 @@
   width:750px;
   height: 850px;
   position:relative;
+  overflow:hidden;
 }
 
 .real {
@@ -92,7 +93,7 @@ img.ryan {
 .random {
   color: white;
   font-size:20px;
-  top:930px;
+  top:830px;
   right:215px;
   background:transparent;
   z-index:4;
@@ -243,10 +244,12 @@ img.puffer {
 }
 
 img.ryan {
-  width:327px;
-  height:184px;
+  width:212px;
+  height:120px;
   z-index:3;
   background:transparent;
+  top:325px;
+  left:50px;
 }
 .box {
   width: 375px;
@@ -274,7 +277,7 @@ img.ryan {
 
 .random {
   font-size:12px;
-  top:545px;
+  top:480px;
   left:-88px;
   background:transparent;
   z-index:4;
@@ -287,7 +290,7 @@ img.ryan {
   z-index:4;
   background:none;
   position: absolute;
-  top:510px;
+  top:460px;
   left:125px;
 }
 
@@ -331,7 +334,7 @@ margin-left:55px;
   font-size:12px;
 }
 .calories {
-  top:530px;
+  top:475px;
   right:10px;
   background:none;
 }
@@ -353,17 +356,21 @@ img.calories {
   html {
 background-color: #783615;;
 }
+
+
 .baloo-2-puffs {
   font-family: "Baloo 2", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
-  font-style: normal; }
+  font-style: normal; 
+}
 
 .cereal-carton {
   width:750px;
   height: 850px;
   position:relative;
   margin:auto;
+  overflow:hidden;
 }
 
 .real {
@@ -373,7 +380,6 @@ background-color: #783615;;
 color:#004399;  
 margin-left:100px;
   z-index:4;
-  line-height: 0.7;
 }
 
 .lunch {
@@ -381,11 +387,17 @@ margin-left:100px;
   display:flex;
   flex-direction: row;
   align-items:center;
-  gap: 250px;
   width: 750px;
+  gap:250px;
   font-family: "Baloo 2";
 }
-
+.oz {
+  z-index:5;
+  font-size:10px;
+  margin-left:-320px;
+  margin-top:40px;
+  color:#f2e817;
+}
 .cup {
  right:0px;
 }
@@ -409,9 +421,10 @@ img.puffer {
   top:130px;
 }
 img.family {
-width:600px;
-height:60px;
+width:550px;
+height:55px;
 padding:15px;
+margin-left:-200px;
 }
 
 img.ryan {
@@ -447,7 +460,7 @@ img.ryan {
 .random {
   color: white;
   font-size:20px;
-  top:930px;
+  top:830px;
   right:215px;
   background:transparent;
   z-index:4;
@@ -455,11 +468,11 @@ img.ryan {
 
 .nutrition {
   color:white;
-  font: size 25px;
+  font-size:15px;
   z-index:4;
   background:none;
   position: absolute;
-  top:890px;
+  top:775px;
   left:280px;
 }
 
@@ -481,7 +494,8 @@ img.ryan {
   z-index: 4;
   transform: rotate(180deg); 
   transform-origin: center; 
-  margin-top: 4.25px; 
+  margin-top:4px;
+  margin-left:-20px;
 }
 .general {
   width: 60px;
@@ -505,7 +519,7 @@ margin-left:110px;
 }
 
 .calories {
-  top:910px;
+  top:800px;
   right:20px;
   background:none;
 }
@@ -524,14 +538,7 @@ img.calories {
   left:-300px;
   line-height: 0.8;
 }
-  /* Laptop label */
-  main::before {
-    content: "Laptop";
-    background-color: #45454588;
-  }
-  /* End laptop label */
 }
-
 @media only screen and (min-width: 1400px) {
  
   html {
