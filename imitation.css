@@ -9,7 +9,14 @@ html {
   font-weight: 500;
   font-style: normal; 
 }
-
+.wildRide {
+  font-family: 'Wild Ride', sans-serif;
+font-family: 'Wild Ride Back Fill', sans-serif;
+}
+.impact {
+  font-family: 'Impact', sans-serif;
+font-family: 'Impacted', sans-serif;
+}
 .cereal-carton {
   width:750px;
   height: 850px;
@@ -20,6 +27,12 @@ html {
 
 .real {
   color:#f2e817;
+  font-size:35px;
+  margin-left:10px;
+}
+.reese {
+  margin-left:35px;
+  font-size:30px;
 }
 .mills {
 color:#004399;  
@@ -39,8 +52,8 @@ margin-left:100px;
 .oz {
   z-index:5;
   font-size:10px;
-  margin-left:-320px;
-  margin-top:40px;
+  margin-left:-260px;
+  margin-top:55px;
   color:#f2e817;
 }
 .cup {
@@ -54,22 +67,33 @@ z-index:4;
 
 .puffer {
   background-color:none;
-  width: 159px;
-  font-family: "Baloo 2";
+  font-size:238px;
+  font-family: "Wild Ride";
+  line-height:0.45;
+  top:195px;
+  color:#f2e817;
+ text-shadow: 
+    12px 12px 0px rgb(58,28,28) , 
+    -2px 2px 2px rgb(58,28,28), 
+    2px -2px 2px rgb(58,28,28), 
+    -2px -2px 2px rgb(58,28,28);
+
 }
-img.puffer {
+/*img.puffer {
   height:275px;
   width:438px;
   z-index:2;
   align-items:center;
   margin-left:-35%;
   top:130px;
-}
-img.family {
-width:550px;
-height:55px;
-padding:15px;
-margin-left:-200px;
+}*/
+
+.family {
+font-size:64px;
+color:#f2e817;
+font-family:"Impact";
+margin-left:-60px;
+letter-spacing: 8px;
 }
 
 img.ryan {
@@ -89,6 +113,7 @@ img.ryan {
 .ryan {
   bottom:25px;
   margin-left:100px;
+  background:transparent;
 }
 
 .sweet {
@@ -120,7 +145,6 @@ img.ryan {
   top:775px;
   left:280px;
 }
-
 .triangle-container {
   position: relative;
   display: inline-block;
@@ -151,14 +175,14 @@ img.ryan {
   background:none;
 }
 .pb {
-margin-left:110px;
+margin-left:160px;
   text-indent:60px;
   font-family: "Baloo 2";
   z-index:4;
   background: transparent;
   line-height: 0.8;
   position:absolute;
-  top:220px;
+  top:230px;
   left:-70px;
   font-size:24px;
 }

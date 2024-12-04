@@ -540,11 +540,11 @@ img.calories {
 }
 }
 @media only screen and (min-width: 1400px) {
- 
-  html {
-background-color: #783615;;
+ /*This section was helped scale by ChatGPT!! To avoid tedious calculations*/
+html {
+  background-color: #783615;
 }
-  .baloo-2-puffs {
+.baloo-2-puffs {
   font-family: "Baloo 2", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -552,19 +552,36 @@ background-color: #783615;;
 }
 
 .cereal-carton {
-  width: 1125px;
-  height: 1275px;
+  width: 750px; /* Same width */
+  height: 850px; /* New height */
   position: relative;
-  margin:auto;
+  margin: auto;
 }
 
 .real {
   color: #f2e817;
 }
-
 .mills {
   color: #004399;
-  margin-left: 150px;
+  margin-left: 100px;
+  z-index: 4;
+  font-size: 20px;
+  line-height: 0.7; /* Reverted */
+}
+
+img.family {
+  width: 600px;
+  height: 51px; /* 60px * 0.85 */
+  padding: 8.5px; /* 10px * 0.85 */
+}
+
+.cup {
+  top: 51px; /* 60px * 0.85 */
+  right: 0px;
+}
+img.cup {
+  width: 156px;
+  height: 132.6px; /* 156px * 0.85 */
   z-index: 4;
 }
 
@@ -573,98 +590,85 @@ background-color: #783615;;
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 375px;
-  width: 1125px;
+  gap: 200px;
+  width: 750px;
   font-family: "Baloo 2";
-}
-
-.cup {
-  right: 0px;
-}
-
-img.cup {
-  width: 234px;
-  height: 234px;
-  z-index: 4;
 }
 
 .puffer {
   background-color: none;
-  width: 238.5px;
+  width: 160px;
   font-family: "Baloo 2";
-}
-
-img.puffer {
-  height: 450px;
-  width: 657px;
-  z-index: 2;
+  position: absolute;
+  bottom: 459px; /* 540px * 0.85 */
   align-items: center;
-  margin-left: -37%;
-  top: 200px;
+  right: 180px;
 }
-
-img.family {
-  width: 900px;
-  height: 90px;
-  padding: 22.5px;
+img.puffer {
+  height: 233.9px; /* 274px * 0.85 */
+  width: 438px;
+  z-index: 2;
+}
+.family {
+  color: #f2e817;
+  font-size: 50px;
 }
 
 img.ryan {
-  height: 450px;
-  width: 757.5px;
+  width: 424px;
+  height: 204px; /* 240px * 0.85 */
   z-index: 3;
   background: transparent;
+  top: 552.5px; /* 650px * 0.85 */
+  left: 100px;
 }
-
 .box {
-  width: 1125px;
-  height: 1275px;
+  width: 750px;
+  height: 850px;
   text-align: center;
   box-sizing: border-box;
   position: absolute;
   background: #f64700;
 }
 
-.ryan {
-  bottom: 37.5px;
-  margin-left: 150px;
-}
-
 .sweet {
   z-index: 4;
   background: transparent;
   font-family: "Baloo 2";
-  line-height: 0.8;
-  top: 690px;
-  left: 405px;
-  font-size: 36px;
+  line-height: 0.7; /* Reverted */
+  top: 510px; /* 600px * 0.85 */
+  left: 300px;
+  font-size: 24px;
   color: black;
+}
+.ryan {
+  bottom: -25.5px; /* -30px * 0.85 */
+  margin-left: 50px;
 }
 
 .random {
-  color: white;
-  font-size: 30px;
-  top: 1390px;
-  right: 322px;
+  font-size: 24px;
+  top: 816px; /* 960px * 0.85 */
+  left: -176px;
   background: transparent;
   z-index: 4;
+  color: white;
 }
 
 .nutrition {
   color: white;
-  font-size: 37.5px;
+  font-size: 22px;
   z-index: 4;
   background: none;
   position: absolute;
-  top: 1335px;
-  left: 420px;
+  top: 782px; /* 920px * 0.85 */
+  left: 250px;
 }
 
 .triangle-container {
   position: relative;
   display: inline-block;
 }
-
 .triangle-container::before {
   content: '';
   position: absolute;
@@ -672,59 +676,53 @@ img.ryan {
   left: 0;
   right: 0;
   bottom: 0;
-  border-top: 150px solid transparent;
-  border-left: 375px solid transparent;
-  border-right: 90px solid transparent;
-  border-bottom: 150px solid white;
+  border-top: 85px solid transparent; /* 100px * 0.85 */
+  border-left: 212.5px solid transparent; /* 250px * 0.85 */
+  border-right: 51px solid transparent; /* 60px * 0.85 */
+  border-bottom: 85px solid white; /* 100px * 0.85 */
   z-index: 4;
   transform: rotate(180deg);
   transform-origin: center;
-  margin-top:4.6px;
+  margin-top: 5.1px; /* 6px * 0.85 */
 }
-
 .general {
-  width: 90px;
-  height: 99px;
-  margin-left: 60px;
-  margin-top: 15px;
+  width: 60px;
+  height: 66px; /* 33px * 2 */
+  margin-left: 40px;
+  margin-top: 8.5px; /* 10px * 0.85 */
   z-index: 4;
   background: none;
 }
-
 .pb {
-  margin-left: 165px;
-  text-indent: 90px;
+  margin-left: 110px;
+  text-indent: 60px;
   font-family: "Baloo 2";
   z-index: 4;
   background: transparent;
-  line-height: 0.8;
-  position: absolute;
-  top: 330px;
-  left: -105px;
-  font-size: 36px;
+  line-height: 0.7; /* Reverted */
+  top: 180px; /* 360px * 0.85 */
+  left: -60px;
+  font-size: 24px;
 }
-
 .calories {
-  top: 1365px;
-  right: 30px;
+  top: 807.5px; /* 950px * 0.85 */
+  right: 20px;
   background: none;
 }
 
 img.calories {
-  width: 225px;
-  height: 75px;
+  width: 210px;
+  height: 51px; /* 60px * 0.85 */
   z-index: 6;
 }
 
 .enlarged {
-  font-family: "Baloo 2";
-  font-size: 21px;
-  top: 1125px;
-  z-index: 6;
   background: transparent;
-  left: -450px;
-  line-height: 0.8;
+  font-size: 0px;
 }
+
+
+
 
   /* End widescreen label */
 }
